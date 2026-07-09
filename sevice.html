@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Cars</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .card {
+            width: 300px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px gray;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h2 {
+            text-align: center;
+        }
+
+        .card p {
+            text-align: center;
+        }
+
+        .price {
+            color: red;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        button {
+            display: block;
+            margin: 15px auto;
+            padding: 10px 20px;
+            border: none;
+            background: #222;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: crimson;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Available Cars</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="cars.html">Cars</a>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600" alt="BMW">
+        <h2>BMW M4</h2>
+        <p>Powerful Sports Coupe</p>
+        <p class="price">$80,000</p>
+        <button>Book Now</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600" alt="Audi">
+        <h2>Audi A6</h2>
+        <p>Luxury Sedan</p>
+        <p class="price">$65,000</p>
+        <button>Book Now</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600" alt="Mercedes">
+        <h2>Mercedes C-Class</h2>
+        <p>Premium Comfort</p>
+        <p class="price">$72,000</p>
+        <button>Book Now</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Dream Car Showroom</p>
+</footer>
+
+</body>
+</html>
